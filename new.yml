@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  web:
+    image: frankmail007/docker-octobercms-dev
+    restart: always
+    container_name: octobermovies
+    ports:
+      - 8800:80
+    
