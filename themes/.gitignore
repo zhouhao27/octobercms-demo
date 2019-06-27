@@ -1,4 +1,6 @@
 .DS_Store
 movie-theme/node_modules
+movie-theme/yarn.lock
+
 
 

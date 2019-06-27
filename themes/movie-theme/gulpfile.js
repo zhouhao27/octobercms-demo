@@ -1,10 +1,8 @@
 var elixir = require('laravel-elixir')
 require('laravel-elixir-livereload')
 
-var themeName = 'movie-theme'
-
-elixir.config.assetsPath = 'themes/' + themeName + '/assets'
-elixir.config.publicPath = elixir.config.assetsPath + '/compiled'
+elixir.config.assetsPath = 'assets'
+elixir.config.publicPath = 'assets/compiled'
 
 elixir(function(mix) {
   mix.sass('style.scss')
@@ -17,8 +15,8 @@ elixir(function(mix) {
   // ])
 
   mix.livereload([
-    'themes/' + themeName + '/assets/compiled/css/style.css',
-    'themes/' + themeName + '/**/*.htm',
-    'themes/' + themeName + '/assets/compiled/js/*.js'
+    'assets/compiled/css/style.css',
+    '**/*.htm',
+    'assets/compiled/js/*.js'
   ])
 }) 
