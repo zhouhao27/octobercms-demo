@@ -1,3 +1,10 @@
+# Docker running OctoberCMS
+
+It's good for creating a prototype.
+
+- OctoberCMS
+- Sqlite
+
 # Preparation
 
 ```

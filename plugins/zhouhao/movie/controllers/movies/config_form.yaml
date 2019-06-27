@@ -1,0 +1,11 @@
+name: Movies
+modelClass: ZhouHao\Movie\Models\Movie
+form: $/zhouhao/movie/models/movie/fields.yaml
+defaultRedirect: zhouhao/movie/movies
+create:
+    redirect: 'zhouhao/movie/movies/update/:id'
+    redirectClose: zhouhao/movie/movies
+update:
+    redirect: zhouhao/movie/movies
+    redirectClose: zhouhao/movie/movies
+preview: {  }

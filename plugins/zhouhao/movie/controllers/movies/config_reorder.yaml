@@ -1,0 +1,5 @@
+title: Movies
+modelClass: ZhouHao\Movie\Models\Movie
+nameFrom: movie
+toolbar:
+    buttons: reorder_toolbar
