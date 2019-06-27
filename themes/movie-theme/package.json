@@ -1,0 +1,16 @@
+{
+  "name": "octobercms-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "repository": "https://github.com/zhouhao27/octobercms-demo.git",
+  "author": "Zhou Hao <zhou.hao.27@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "laravel-elixir": "^6.0.0-18",
+    "laravel-elixir-livereload": "^1.1.6"
+  }
+}
