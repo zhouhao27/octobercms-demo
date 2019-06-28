@@ -15,10 +15,15 @@ description = "Default layout"
         {% styles %}
     </head>
     <body>        
+        
+        {% partial 'header' %}
+
         <!-- Content -->
         <section id="layout-content" class="container clearfix">
             {% page %}
         </section>
+        
+        {% partial 'footer' %}
         
         <!-- Scripts -->
         <script src="{{ [
